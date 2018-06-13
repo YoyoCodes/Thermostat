@@ -44,6 +44,7 @@ describe('Thermostat', function(){
 
   describe('when power saving mode is on', function() {
     it('has a maximum temperature of 25 degrees', function() {
+      expect(thermostat.isPowerSavingModeOn()).toBe(true)
       for (var i = 0; i < 6; i++) {
         thermostat.up();
       }
