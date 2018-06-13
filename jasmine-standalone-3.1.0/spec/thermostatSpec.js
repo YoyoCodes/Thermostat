@@ -10,12 +10,12 @@ describe('Thermostat', function(){
  });
 
   it('increases temperature with the up function',function(){
-    thermostat.up(5);
-    expect(thermostat.getCurrentTemperature()).toEqual(25);
+    thermostat.up();
+    expect(thermostat.getCurrentTemperature()).toEqual(21);
   });
 
   it('decreases the temperature with the down function',function(){
-    thermostat.down(3);
-    expect(thermostat.getCurrentTemperature()).toEqual(17);
+    thermostat.down();
+    expect(thermostat.getCurrentTemperature()).toEqual(19);
   });
 });
