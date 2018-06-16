@@ -1,6 +1,21 @@
-/* font-family: 'Indie Flower', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Capriola', sans-serif; */
+body{
+    /* The image used */
+    background-image: url("back.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+}
 .low-usage {
   color: green;
 }
@@ -11,4 +26,72 @@ font-family: 'Raleway', sans-serif; */
 
 .high-usage {
   color: red;
+}
+
+.container{
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.head{
+  margin:20px;
+  margin-bottom: 60px;
+  padding:10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 56px;
+}
+
+#temperature-up, #temperature-down{
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  /* cursor:pointer;
+  overflow: hidden; */
+  font-size:50px;
+}
+
+#temperature-reset{
+    background-color: Transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#current-city{
+  width: 20%;
+  margin: 0 auto;
+}
+
+#temperature{
+  padding-top: 20px;
+  font-family: 'Monoton';
+  font-size:60px;
+}
+
+#powersaving-on, #powersaving-off{
+  opacity: 0.6;
+  margin-left: -left: 10px;
+  margin-right: 10px;
+}
+
+#temperature-up:hover {
+  transform: scale(1.8);
+}
+
+#temperature-down:hover {
+  transform: scale(1.8);
+}
+
+#temperature-reset:hover{
+  transform: scale(1.4);
 }
