@@ -17,6 +17,7 @@ You can ask about the thermostat's current energy usage: < 18 is low-usage, < 25
 
 ## Implementing the requirements
 I used a weather API to get the current temperature in a city selected by the user.
+![alt text](IMG/java.png)
 
 ## Final product
 ![alt text](IMG/styled.png "thermostat app")
