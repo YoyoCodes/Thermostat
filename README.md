@@ -1,7 +1,7 @@
 # The Thermostat App
 
 ## Setting up the foundations
-This is a TDD javascript app that simulates a thermostat.
+This is a TDD javascript app that simulates a thermostat. You can adjust your thermostat temperature based on a weather forecast provided by an API.
 
 ## Specification
 
