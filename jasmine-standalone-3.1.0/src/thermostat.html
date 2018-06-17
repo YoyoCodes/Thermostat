@@ -11,10 +11,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Capriola|Comfortaa|Gloria+Hallelujah|Monoton|Rubik+Mono+One" rel="stylesheet">
   </head>
-  <body style="background-color: blue">
+  <body>
     <div class='container'>
       <section>
-        <h1 class="head">Current temperature: <span id="current-temperature">20</span></h1>
+        <h1 class="head">Current temperature outside: <span id="current-temperature">20</span></h1>
         <div class='content'>
           <select id="current-city">
             <option value="london">London</option>
@@ -34,7 +34,9 @@
             <button id="temperature-reset">RESET</button><br><br>
             <button id="powersaving-on" class="btn btn-danger">PSM on</button>
             <button id="powersaving-off" class="btn btn-info">PSM off</button><br>
-            power saving mode is <span id="power-saving-status">on</span>
+            <p class="power-saving-status">
+              power saving mode is <span id="power-saving-status">on</span>
+            </p>
           </p>
         </section>
     </div>

@@ -16,17 +16,6 @@ body{
     background-size: cover;
     font-family: 'Comfortaa', cursive;
 }
-.low-usage {
-  color: green;
-}
-
-.medium-usage {
-  color: black;
-}
-
-.high-usage {
-  color: red;
-}
 
 .container{
   margin-top: 10%;
@@ -40,6 +29,11 @@ body{
   padding:10px;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 56px;
+}
+
+.power-saving-status{
+  color: grey;
+  font-size: 15px;
 }
 
 #temperature-up, #temperature-down{
@@ -70,6 +64,9 @@ body{
 #current-city{
   width: 20%;
   margin: 0 auto;
+  font-size: 28px;
+  background-color: Transparent;
+  margin-bottom: 15px;
 }
 
 #temperature{
@@ -80,18 +77,18 @@ body{
 
 #powersaving-on, #powersaving-off{
   opacity: 0.6;
-  margin-left: -left: 10px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
 #temperature-up:hover {
-  transform: scale(1.8);
+  transform: scale(1.3);
 }
 
 #temperature-down:hover {
-  transform: scale(1.8);
+  transform: scale(1.3);
 }
 
 #temperature-reset:hover{
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
